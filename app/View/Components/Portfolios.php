@@ -28,7 +28,7 @@ class Portfolios extends Component
                 'category' => ['Laravel', 'PHP', 'AlpineJS' ],
                 'title' => 'Animated Responsive Sidenav',
                 'image' => url('/img/portfolio.png'),
-                'github' => 'https://github.com/juanpablo241/animated-sidenav'
+                'github' => 'https://github.com/juanpablo241/porfolio-laravel'
             ],
 
         ];
