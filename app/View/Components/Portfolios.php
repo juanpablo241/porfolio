@@ -19,41 +19,18 @@ class Portfolios extends Component
     {
         $this->items = [
             [
-                'category' => ['Laravel', 'Tailwind.css', 'Vue3'],
-                'title' => 'Full Stack app with Laravel, Tailwindcss and Vue 3',
-                'image' => url('/img/survey.png'),
-                'github' => 'https://github.com/thecodeholic/laravel-vue-survey'
+                'category' => ['Angular'],
+                'title' => 'Animated Responsive Sidenav',
+                'image' => url('/img/SideNav.png'),
+                'github' => 'https://github.com/juanpablo241/animated-sidenav'
             ],
             [
-                'category' => ['Yii2', 'Bootstrap'],
-                'title' => 'E-commerce website with Yii2',
-                'image' => url('/img/yii2-ecommerce.jpg'),
-                'github' => 'https://github.com/thecodeholic/yii2-ecommerce-website'
+                'category' => ['Laravel', 'PHP', 'AlpineJS' ],
+                'title' => 'Animated Responsive Sidenav',
+                'image' => url('/img/portfolio.png'),
+                'github' => 'https://github.com/juanpablo241/animated-sidenav'
             ],
-            [
-                'category' => ['PHP', 'Laravel'],
-                'title' => 'REST API with Laravel 8 and Sanctum',
-                'image' => url('/img/laravel-rest-api.png'),
-                'github' => 'https://github.com/thecodeholic/laravel-image-manipulation-rest-api'
-            ],
-            [
-                'category' => ['PHP'],
-                'title' => 'PHP MVC Framework',
-                'image' => url('/img/php-mvc-framework.png'),
-                'github' => 'https://github.com/thecodeholic/php-mvc-framework'
-            ],
-            [
-                'category' => ['Yii2', 'Bootstrap'],
-                'title' => 'YouTube clone with Yii2',
-                'image' => url('/img/yii2-youtube-clone.png'),
-                'github' => 'https://github.com/thecodeholic/Yii2-Youtube-Clone'
-            ],
-            [
-                'category' => ['Yii2', 'VueJs'],
-                'title' => 'Yii2 + VueJs Notes application',
-                'image' => url('/img/yii2-vue-notes.png'),
-                'github' =>  'https://github.com/thecodeholic/vue.js-yii2-notes'
-            ],
+
         ];
 
         $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));

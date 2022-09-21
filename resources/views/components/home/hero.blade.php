@@ -14,8 +14,11 @@
                     </p>
                     <ul class="flex flex-wrap items-center">
                         <li>
-                            <x-button-link href="#portfolio" variant="primary" class="rounded-lg">
+                            <x-button-link style="margin-right: 30px" href="#portfolio" variant="primary" class="rounded-lg">
                                 My Projects
+                            </x-button-link>
+                            <x-button-link  href="cv.pdf" download variant="primary" class="rounded-lg">
+                                Download CV
                             </x-button-link>
                         </li>
                     </ul>
