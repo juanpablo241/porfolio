@@ -22,13 +22,15 @@ class Portfolios extends Component
                 'category' => ['Angular'],
                 'title' => 'Animated Responsive Sidenav',
                 'image' => url('/img/SideNav.png'),
-                'github' => 'https://github.com/juanpablo241/animated-sidenav'
+                'github' => 'https://github.com/juanpablo241/animated-sidenav',
+                'preview' => 'https://animated-sidenav-juanpablo241.vercel.app/dashboard'
             ],
             [
-                'category' => ['Laravel', 'PHP', 'AlpineJS' ],
-                'title' => 'Animated Responsive Sidenav',
-                'image' => url('/img/portfolio.png'),
-                'github' => 'https://github.com/juanpablo241/porfolio-laravel'
+                'category' => ['React', 'Next' ],
+                'title' => 'ECommerce React Aplication with Stripe',
+                'image' => url('/img/Ecommerce.png'),
+                'github' => 'https://github.com/juanpablo241/ecommerce_sanity-stripe',
+                'preview' => 'https://ecommerce-sanity-stripe-juanpablo241.vercel.app/'
             ],
 
         ];

@@ -14,7 +14,9 @@
             <h3 class="font-bold text-lg text-dark dark:text-gray-300 mb-4">
                 {{ $title }}
             </h3>
-            <x-button-link :href="$github" variant="outline-primary">View Details</x-button-link>
+            <x-button-link target="_blank" style="width: 45%;" :href="$github" variant="outline-primary">GitHub</x-button-link>
+            <x-button-link target="_blank" style="width: 45%;" :href="$preview" variant="outline-primary">Preview</x-button-link>
+
         </div>
     </div>
 </div>
